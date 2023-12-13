@@ -1,18 +1,15 @@
-# Documentación de la API rest
+# Documentación del proyecto LORENZZO
 
-Bienvenido a la documentación de la API. A continuación, se presenta una descripción general de este mismo, los requisitos, instrucciones de instalación y una lista
-de endpoints disponibles con enlaces a sus respectivas documentaciones detalladas.
+Bienvenido a la documentación de Lorenzzo. A continuación, se presenta una descripción general de este mismo, los requisitos, instrucciones de instalación y una lista de endpoints disponibles con enlaces a sus respectivas documentaciones detalladas.
 
 ## Descripción General del proyecto
 
-Lorenzzo es un sitio web dedicado a la venta de ropa, calzado y accesorios y esto es basicamente la conexión con la base de datos y el buen funcionamiento de un servidor web
+Lorenzzo es un sitio web dedicado a la venta de ropa, calzado y accesorios y esto es basicamente la conexión con la base de datos y el buen funcionamiento de un servidor web.
 
 ### Descripción General de Endpoints
 
 | Recurso                    | Descripción |
 | -------------------------- | ----------- |
-| `GET /temas`               | Recupera la lista de todos los temas disponibles. |
-| [`GET /temas/{id}/usuarios`](./endpoints/get-id-usuarios.md)   | Obtiene la lista de usuarios asociados a un tema específico. |
 | `GET /usuarios`              | Recupera la lista de todos los usuarios disponibles. |
 | `GET /usuarios/{id}/` | Obtiene la lista de un usuario específico. |
 | `GET /productos`             | Recupera la lista de todos los productos disponibles. |
@@ -21,6 +18,11 @@ Lorenzzo es un sitio web dedicado a la venta de ropa, calzado y accesorios y est
 | `GET /pedidos/{id}`        | Obtiene información detallada sobre un pedido específico. |
 | `GET /productos`             | Recupera la lista de todos los detalles de un pedido disponibles. |
 | `GET /productos/{id}`        | Obtiene información detallada sobre los detalles de un pedido específico. |
+El POST envía datos de forma que no pueden verse (en un segundo plano u "ocultos" al usuario).
+| `POST /usuarios/{id}/` | Se usa para modificar el id de un usuario |
+| `POST /productos/{id}`          
+| `POST /pedidos/{id}`        
+| `POST /productos/{id}`        
 
 #### Requisitos
 
@@ -28,14 +30,14 @@ Para correr este proyecto se necesita visual studio code, docker desktop (aqui e
 
 #### Instrucciones
 
-# API RESTful con Node.js
+# Node.js
 
 Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
 con implementación en contenedores de Docker.
 
 ## Tabla de contenido
 
-- [API RESTful con Node.js](#api-restful-con-nodejs)
+- [Node.js](#nodejs)
   - [Tabla de contenido](#tabla-de-contenido)
   - [Requisitos de instalación](#requisitos-de-instalación)
   - [Instrucciones para la instalación](#instrucciones-para-la-instalación)

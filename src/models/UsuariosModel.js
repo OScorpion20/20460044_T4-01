@@ -10,6 +10,7 @@ class UsuariosModel
     }
     static async consultarPorId(id)
     {
+        let db = await connectToMysql();
         return await db('Usuarios').where('id_usuario', id);
     }
     static async insertar(datos) {

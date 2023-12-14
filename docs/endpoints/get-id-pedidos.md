@@ -8,7 +8,7 @@ identificador único.
 
 ## Ejemplo de Solicitud
 ```http
-GET /temas/pedidos
+GET /pedidos
 ```
 
 ## Respuesta Exitosa (Código 200 OK)

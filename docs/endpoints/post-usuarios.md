@@ -8,7 +8,13 @@ POST /usuarios
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
-    
+     {
+        "id_usuario": 7,
+        "nombre_usuario": "Usuario1",
+        "correo_electronico": "usuario1@email.com",
+        "contrasena": "contrasena1",
+        "fecha_registro": "2023-12-07T20:31:31.000Z"
+    }
     {
     "status": 201,
     "message": "Created"

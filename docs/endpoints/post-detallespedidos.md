@@ -8,6 +8,13 @@ POST /detallespedidos
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
+{
+        "id_detalle": 47,
+        "id_pedido": null,
+        "id_producto": 1,
+        "cantidad": 2,
+        "precio_unitario": "19.99"
+    }
 
     {
     "status": 201,

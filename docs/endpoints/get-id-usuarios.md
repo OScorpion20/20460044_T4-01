@@ -1,4 +1,4 @@
-# Endpoint: `GET /temas/{id}/usuarios`
+# Endpoint: `GET /{id}/usuarios`
 
 Permite obtener información sobre los usuarios relacionados a un tema mediante su
 identificador único.

@@ -1,10 +1,8 @@
-# Endpoint: `GET /usuarios/{id}/pedidos`
+# Endpoint: `GET /pedidos`
 
 Permite obtener información sobre los pedidos relacionados a un tema mediante su
 identificador único.
 
-## Parámetros de URL
-- `{id}` (obligatorio): Identificador único del tema que se desea recuperar.
 
 ## Ejemplo de Solicitud
 ```http

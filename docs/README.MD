@@ -24,12 +24,6 @@ El POST envía datos de forma que no pueden verse (en un segundo plano u "oculto
 | `POST /pedidos/{id}`        
 | `POST /detallespedidos/{id}`        
 
-#### Requisitos
-
-Para correr este proyecto se necesita visual studio code, docker desktop (aqui es donde se crea la magia, o sea, el contenedor de datos), tambien se necesita un sistema gestor de base de datos que en este caso optamos por utilizar HeidiSQL, y de igual forma para hacer consultas y ejecutar métodos se necesita Postman.
-
-#### Instrucciones
-
 # Node.js
 
 Proyecto de demostración para clases de desarrollo de APIs utilizando Node.js,
@@ -45,6 +39,8 @@ con implementación en contenedores de Docker.
   - [Enlaces externos](#enlaces-externos)
 
 ## Requisitos de instalación
+
+Para correr este proyecto se necesita visual studio code, docker desktop (aqui es donde se crea la magia, o sea, el contenedor de datos), tambien se necesita un sistema gestor de base de datos que en este caso optamos por utilizar HeidiSQL, y de igual forma para hacer consultas y ejecutar métodos se necesita Postman.
 
 Asegúrate de tener instalado y configurado Docker antes de comenzar.
 

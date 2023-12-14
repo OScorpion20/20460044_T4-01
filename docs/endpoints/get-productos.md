@@ -1,10 +1,8 @@
-# Endpoint: `GET /{id}/productos`
+# Endpoint: `GET /productos`
 
 Permite obtener información sobre los productos relacionados a un tema mediante su
 identificador único.
 
-## Parámetros de URL
-- `{id}` (obligatorio): Identificador único del tema que se desea recuperar.
 
 ## Ejemplo de Solicitud
 ```http

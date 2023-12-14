@@ -10,6 +10,7 @@ class DetallesPedidosModel
     }
     static async consultarPorId(id)
     {
+        let db = await connectToMysql();
         return await db('Detalles_Pedido').where('id_detalle', id);
     }
     static async insertar(datos) {

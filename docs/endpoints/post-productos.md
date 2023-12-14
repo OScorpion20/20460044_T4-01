@@ -1,6 +1,6 @@
 # Endpoint: `POST /productos`
 
-Permite añadir un nuevo registro en la tabla de usuarios
+Permite añadir un nuevo registro en la tabla de productos
 ## Ejemplo de Solicitud
 ```http
 POST /productos

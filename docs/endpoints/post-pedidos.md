@@ -8,7 +8,11 @@ POST /pedidos
 
 ## Respuesta Exitosa (Código 200 OK)
 ```json
-
+ {
+        "id_pedido": 14,
+        "id_usuario": 1,
+        "fecha_pedido": "2023-12-07T20:32:12.000Z"
+    }
     {
     "status": 201,
     "message": "Created"

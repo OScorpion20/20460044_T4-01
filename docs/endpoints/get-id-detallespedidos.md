@@ -1,4 +1,4 @@
-# Endpoint: `GET /temas/{id}/detallespedidos`
+# Endpoint: `GET /pedidos/{id}/detallespedidos`
 
 Permite obtener información sobre los detalles del pedido relacionados a un tema mediante su
 identificador único.

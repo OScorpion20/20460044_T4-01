@@ -10,19 +10,19 @@ Lorenzzo es un sitio web dedicado a la venta de ropa, calzado y accesorios y est
 
 | Recurso                    | Descripción |
 | -------------------------- | ----------- |
-| `GET /usuarios`              | Recupera la lista de todos los usuarios disponibles. |
+| `GET /usuarios`              | Recupera la lista de todos los usuarios disponibles. | (./endpoints//get-id-usuarios.md) 
 | `GET /usuarios/{id}/` | Obtiene la lista de un usuario específico. |
-| `GET /productos`             | Recupera la lista de todos los productos disponibles. |
+| `GET /productos`             | Recupera la lista de todos los productos disponibles. | (./endpoints//get-id-productos.md) 
 | `GET /productos/{id}`        | Obtiene información detallada sobre un producto específico. |
-| `GET /pedidos`             | Recupera la lista de todos los pedidos disponibles. |
+| `GET /pedidos`             | Recupera la lista de todos los pedidos disponibles. | (./endpoints//get-id-pedidos.md) 
 | `GET /pedidos/{id}`        | Obtiene información detallada sobre un pedido específico. |
-| `GET /productos`             | Recupera la lista de todos los detalles de un pedido disponibles. |
-| `GET /productos/{id}`        | Obtiene información detallada sobre los detalles de un pedido específico. |
+| `GET /detallespedidos`             | Recupera la lista de todos los detalles de un pedido disponibles. |(./endpoints//get-id-detallespedidos.md) 
+| `GET /detallespedidos/{id}`        | Obtiene información detallada sobre los detalles de un pedido específico. |
 El POST envía datos de forma que no pueden verse (en un segundo plano u "ocultos" al usuario).
 | `POST /usuarios/{id}/` | Se usa para modificar el id de un usuario |
 | `POST /productos/{id}`          
 | `POST /pedidos/{id}`        
-| `POST /productos/{id}`        
+| `POST /detallespedidos/{id}`        
 
 #### Requisitos
 

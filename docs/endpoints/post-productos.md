@@ -9,6 +9,18 @@ POST /productos
 ## Respuesta Exitosa (Código 200 OK)
 ```json
 
+{
+        "id_producto": 7,
+        "nombre_producto": "Camiseta Casual",
+        "descripcion": "Camiseta de licra",
+        "precio": "19.99",
+        "categoria": "Ropa",
+        "talla": "M",
+        "marca": "MarcaA",
+        "imagen_url": "url_imagen1.jpg",
+        "disponible": 1
+    }
+
     {
     "status": 201,
     "message": "Created"

@@ -19,9 +19,9 @@ Lorenzzo es un sitio web dedicado a la venta de ropa, calzado y accesorios y est
 | `GET /detallespedidos`             | Recupera la lista de todos los detalles de un pedido disponibles. | 
 | [`GET /detallespedidos/{id}`](./endpoints//get-id-detallespedidos.md)      | Obtiene información detallada sobre los detalles de un pedido específico. |
 El POST envía datos de forma que no pueden verse (en un segundo plano u "ocultos" al usuario).
-| `POST /usuarios/{id}/` | Se usa para modificar el id de un usuario |
-| `POST /productos/{id}`          
-| `POST /pedidos/{id}`        
-| `POST /detallespedidos/{id}`        
+| [`POST /usuarios/{id}/`](./endpoints//post-usuarios.md) | Se usa para modificar el id de un usuario |
+| [`POST /productos/{id}`](./endpoints//post-productos.md)          
+| [`POST /pedidos/{id}`](./endpoints//post-pedidos.md)        
+| [`POST /detallespedidos/{id}`](./endpoints//post-detallespedidos.md)        
 
 

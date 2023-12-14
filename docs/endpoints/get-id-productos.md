@@ -1,4 +1,4 @@
-# Endpoint: `GET /temas/{id}/productos`
+# Endpoint: `GET /{id}/productos`
 
 Permite obtener información sobre los productos relacionados a un tema mediante su
 identificador único.
